@@ -33,7 +33,7 @@ export default class App extends Component {
 			return <Spinner description={'Carregando...'} />;
 		}
 		return (
-			<div>
+			<div className="container">
 				<Header>Drummer Contest</Header>
 				<Candidates candidates={candidates} />
 			</div>
